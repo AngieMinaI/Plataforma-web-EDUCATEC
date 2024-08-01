@@ -1,0 +1,287 @@
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 80px;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+h2 {
+	text-align:justify-all;
+	color: white;
+	font-weight: 1000;
+	font-size: 50px;
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	font-weight: 1000;
+	font-size: 30px;
+	padding: 1%;
+	margin: 0;
+        color: white;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 20px;
+	padding: 5%;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+        color: white;
+        font-size: 24px;
+}
+
+.tabla {
+	justify-content: center;
+	
+	width: 95%;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.tabla_cat {
+        background: #1b4965;
+}
+
+.fila {
+	width: 100%;
+	display: flex;
+	flex: flex-basis 25%;
+	justify-content: space-evenly;
+        background-clip:border-box;
+}
+
+.celda {
+	text-align: center;
+        background-color: #000000;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	margin: 0.5%;
+        padding: 2.5%;
+        transition: transform .2s;
+        border-radius: 10px;
+}
+.celda:hover{
+    transform: scale(1.05);
+}
+
+.titulo-fondo{
+	text-align: center;
+        background-color: #000000;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	margin: 0.5%;
+        padding: 2.5%;
+        transition: transform .2s;
+        border-radius: 10px;
+}
+.cont{
+    display: flex;
+    flex: flex-basis 50%;
+    justify-content:space-around;
+}
+.text{
+    background: #1b4965;
+    	text-align: center;
+	overflow: hidden;
+	margin: 0.5%;
+        padding: 2.5%;
+        border-radius: 10px;
+}
+.video{
+    margin: .5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #003459;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+header a:hover, a:link {
+    color: blue;
+    text-decoration:none;
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+.navegacion a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    background-color: #007EA7;
+}
+h1{
+    color: white;
+    margin: 1cm;
+}
+#p1{
+    font-weight: bold;
+    margin: 1cm;
+    font-size: 20px;
+}
+
+#boton {
+
+    border: 1px solid #2e518b;
+    padding: 10px 10px 10px 10px;
+    background-color: #003459;
+    color: #ffffff;
+    border-radius: 30px;
+
+}
+.table {
+    width: 100%;
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+}
+.p2 {
+    text-align: center;
+
+}
+.titu{
+    color: red;
+    font-weight: bold;
+}
+.cel{
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    margin: 0.5%;
+}
+.tabla{
+    justify-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.celda{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    margin: 0.5%;
+
+}
+.item-es{
+    border-radius: 15px
+}
+#titulo2{
+    color: #1b4965;
+}
+#titulo3{
+    color: white;
+}
+.segundo{
+
+
+    background:#9b9b9b;
+}
+.container-card{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+.carta{
+    width:  500px;
+    height: 400px;
+    padding: 10px 10px;
+    margin: 20px;
+    background:white;
+    border-radius: 20px;
+
+}
+
+
+.carta img{
+    width: 100%;
+    height: 210px;
+}
+.p3{
+    font-style: italic;
+    color: gray;
+}
+footer{
+   
+     background-color: #003459;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+footer a:hover, a:link {
+    color: blue;
+    text-decoration:none;
+}
+footer a{
+    background-color: #003459;
+
+    padding-left: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+.contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.red{
+    align-content: center;
+    height: 55%;
+    width: 50%;
+border-radius: 20px;
+}
+.blue{
+    align-content: center;
+    height: 25%;
+    width: 20%;
+
+}
+.box-footer .terms {
+
+    max-width: 350px;
+    color: white;
+    font-size: 18px;
+}
